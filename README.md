@@ -39,6 +39,7 @@ addon | version | maintainers | summary
 [auth_signup_verify_email](auth_signup_verify_email/) | 16.0.1.0.1 |  | Force uninvited users to use a good email for signup
 [auth_user_case_insensitive](auth_user_case_insensitive/) | 16.0.1.0.0 |  | Makes the user login field case insensitive
 [base_user_show_email](base_user_show_email/) | 16.0.1.0.0 |  | Untangle user login and email
+[cross_connect_server](cross_connect_server/) | 16.0.1.0.0 | [![paradoxxxzero](https://github.com/paradoxxxzero.png?size=30px)](https://github.com/paradoxxxzero) | Cross Connect Server allows Cross Connect Client to connect to it.
 [impersonate_login](impersonate_login/) | 16.0.1.0.0 | [![Kev-Roche](https://github.com/Kev-Roche.png?size=30px)](https://github.com/Kev-Roche) | tools
 [password_security](password_security/) | 16.0.1.0.4 |  | Allow admin to set password security requirements.
 [user_log_view](user_log_view/) | 16.0.1.0.0 | [![trojikman](https://github.com/trojikman.png?size=30px)](https://github.com/trojikman) | Allow to see user's actions log
