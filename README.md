@@ -39,6 +39,7 @@ addon | version | maintainers | summary
 [auth_signup_verify_email](auth_signup_verify_email/) | 16.0.1.0.1 |  | Force uninvited users to use a good email for signup
 [auth_user_case_insensitive](auth_user_case_insensitive/) | 16.0.1.0.0 |  | Makes the user login field case insensitive
 [base_user_show_email](base_user_show_email/) | 16.0.1.0.0 |  | Untangle user login and email
+[cross_connect_client](cross_connect_client/) | 16.0.1.0.0 | <a href='https://github.com/paradoxxxzero'><img src='https://github.com/paradoxxxzero.png' width='32' height='32' style='border-radius:50%;' alt='paradoxxxzero'/></a> | Cross Connect Client allows to connect to a Cross Connect Server enabled odoo instance.
 [cross_connect_server](cross_connect_server/) | 16.0.1.0.1 | <a href='https://github.com/paradoxxxzero'><img src='https://github.com/paradoxxxzero.png' width='32' height='32' style='border-radius:50%;' alt='paradoxxxzero'/></a> | Cross Connect Server allows Cross Connect Client to connect to it.
 [impersonate_login](impersonate_login/) | 16.0.1.0.0 | <a href='https://github.com/Kev-Roche'><img src='https://github.com/Kev-Roche.png' width='32' height='32' style='border-radius:50%;' alt='Kev-Roche'/></a> | tools
 [password_security](password_security/) | 16.0.1.0.4 |  | Allow admin to set password security requirements.
