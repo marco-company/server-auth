@@ -47,7 +47,7 @@ addon | version | maintainers | summary
 [user_log_view](user_log_view/) | 16.0.1.0.0 | <a href='https://github.com/trojikman'><img src='https://github.com/trojikman.png' width='32' height='32' style='border-radius:50%;' alt='trojikman'/></a> | Allow to see user's actions log
 [users_ldap_groups](users_ldap_groups/) | 16.0.1.0.1 |  | Adds user accounts to groups based on rules defined by the administrator.
 [users_ldap_mail](users_ldap_mail/) | 16.0.1.0.0 | <a href='https://github.com/joao-p-marques'><img src='https://github.com/joao-p-marques.png' width='32' height='32' style='border-radius:50%;' alt='joao-p-marques'/></a> | LDAP mapping for user name and e-mail
-[users_ldap_populate](users_ldap_populate/) | 16.0.1.0.1 | <a href='https://github.com/joao-p-marques'><img src='https://github.com/joao-p-marques.png' width='32' height='32' style='border-radius:50%;' alt='joao-p-marques'/></a> | LDAP Populate
+[users_ldap_populate](users_ldap_populate/) | 16.0.1.0.2 | <a href='https://github.com/joao-p-marques'><img src='https://github.com/joao-p-marques.png' width='32' height='32' style='border-radius:50%;' alt='joao-p-marques'/></a> | LDAP Populate
 [vault](vault/) | 16.0.1.0.3 |  | Password vault integration in Odoo
 [vault_share](vault_share/) | 16.0.1.0.1 |  | Implementation of a mechanism to share secrets
 
