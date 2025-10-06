@@ -1,7 +1,3 @@
-## 16.0.1.3.0 2025-05-17
-
-- Add support for ES256, ES384, and HS256 algorithms in OpenID Connect
-
 ## 16.0.1.1.0 2024-02-28
 
 - Forward port OpenID Connect fixes from 15.0 to 16.0
