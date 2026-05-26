@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-09-05 09:06+0000\n"
+"PO-Revision-Date: 2026-05-25 20:11+0000\n"
 "Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: none\n"
 "Language: it\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. module: impersonate_login
 #. odoo-javascript
@@ -27,6 +27,11 @@ msgstr "Riporta a utente originale"
 #: model:ir.model,name:impersonate_login.model_base
 msgid "Base"
 msgstr "Base"
+
+#. module: impersonate_login
+#: model:ir.model,name:impersonate_login.model_res_config_settings
+msgid "Config Settings"
+msgstr "Impostazioni configurazione"
 
 #. module: impersonate_login
 #: model:ir.model.fields,field_description:impersonate_login.field_mail_mail__body
@@ -70,6 +75,15 @@ msgid "ID"
 msgstr "ID"
 
 #. module: impersonate_login
+#: model:ir.model.fields,help:impersonate_login.field_res_config_settings__restrict_impersonate_admin_settings
+msgid ""
+"If enabled, users with the 'Administration: Settings' access right cannot be "
+"impersonated."
+msgstr ""
+"Se abilitato, gli utenti con diritto di accesso \"Amministrazione: "
+"impostazioni\" non possono essere impersonati."
+
+#. module: impersonate_login
 #: model:ir.actions.act_window,name:impersonate_login.impersonate_log_action
 msgid "Impersonate Login Logs"
 msgstr "Imita registri di accesso"
@@ -94,6 +108,11 @@ msgstr "Imita autore"
 #: model:ir.ui.menu,name:impersonate_login.menu_impersonate_log
 msgid "Impersonated Logs"
 msgstr "Imita registri"
+
+#. module: impersonate_login
+#: model_terms:ir.ui.view,arch_db:impersonate_login.view_res_config_settings_impersonate
+msgid "Impersonation Login"
+msgstr "Accesso con altro utente"
 
 #. module: impersonate_login
 #. odoo-python
@@ -125,7 +144,6 @@ msgstr "Registrato come"
 #. module: impersonate_login
 #. odoo-python
 #: code:addons/impersonate_login/models/mail_message.py:0
-#: code:addons/impersonate_login/models/mail_message.py:0
 #, python-format
 msgid "Logged in as {}"
 msgstr "Registrato come {}"
@@ -134,6 +152,23 @@ msgstr "Registrato come {}"
 #: model:ir.model,name:impersonate_login.model_mail_message
 msgid "Message"
 msgstr "Messaggio"
+
+#. module: impersonate_login
+#: model_terms:ir.ui.view,arch_db:impersonate_login.view_res_config_settings_impersonate
+msgid ""
+"Prevents impersonating users that have the\n"
+"                                    \"Administration: Settings\" access "
+"rights."
+msgstr ""
+"Impedisce l'impersonificazione di utenti che dispongono dei diritti di "
+"accesso \"\n"
+"                                    Amministrazione: Impostazioni\"."
+
+#. module: impersonate_login
+#: model:ir.model.fields,field_description:impersonate_login.field_res_config_settings__restrict_impersonate_admin_settings
+#: model_terms:ir.ui.view,arch_db:impersonate_login.view_res_config_settings_impersonate
+msgid "Restrict Impersonation of 'Administration: Settings' Users"
+msgstr "Limita accesso con utente \"Amministrazione: impostazioni\""
 
 #. module: impersonate_login
 #: model:ir.model.fields,field_description:impersonate_login.field_impersonate_log__date_start
@@ -160,3 +195,13 @@ msgstr "Utente"
 #, python-format
 msgid "You are already Logged as another user."
 msgstr "Si è già registrati come altro utente."
+
+#. module: impersonate_login
+#. odoo-python
+#: code:addons/impersonate_login/models/res_users.py:0
+#, python-format
+msgid ""
+"You cannot impersonate users with 'Administration: Settings' access rights."
+msgstr ""
+"Non puoi accedere agli utenti con diritto di accesso \"Amministrazione: "
+"impostazioni\"."
